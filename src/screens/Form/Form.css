@@ -1,0 +1,47 @@
+.form-container {
+  background-color: whitesmoke;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 50%;
+  background-color: cornsilk;
+  padding: 2rem;
+  box-shadow: 2px 2px 10px silver;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-input {
+  margin: 20px 0;
+}
+
+.input {
+  width: 100%;
+  margin-top: 10px;
+  outline: none;
+  font-size: 1.3rem;
+}
+
+.check {
+  margin: 20px 0;
+}
+
+button {
+  background-color: black;
+  color: whitesmoke;
+  cursor: pointer;
+  padding: 10px 8px;
+  border-radius: 15px;
+}
+
+/* Media Query */
+@media (max-width: 792px) {
+  .form {
+    width: 100%;
+  }
+}
